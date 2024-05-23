@@ -5,7 +5,8 @@ import com.ctre.phoenix6.hardware.TalonFX;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 import frc.robot.Constants.DriveConstants;
 import com.ctre.phoenix6.controls.Follower;
-
+// Drivetrain extends SubsystemBase, look at 2024Robot as example
+// Right click on a folder -> "create a new class/command" (I did this for every file I ever made on Ingenuity)
 public class Drivetrain {
     public Drivetrain() {
         TalonFX leftFrontMotor = new TalonFX(DriveConstants.LEFT_FRONT_ID);
