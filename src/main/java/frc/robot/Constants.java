@@ -29,5 +29,15 @@ public final class Constants {
 
         public static final int WRIST_MOTOR_ID = 10;
         public static final int PIVOT_MOTOR_ID = 9;
+
+        public double MaxEncoderExtensionBoomOne = -535000.0;
+        public double MotorPowerBoomOne = 0.99;
+        public double MaxEncoderExtensionBoomTwo = -437300.0;
+        public double MotorPowerBoomTwo = 0.99;
+        public double PivotPower = 0.65;
+        public double MaxEncoderExtensionPivot = -242000.0;
+        public double WristPower = 0.25;
+        public double MaxEncoderExtensionWrist = -70000.0;
+        public double DEADBAND_VALUE = 0.20;
     }
 }
