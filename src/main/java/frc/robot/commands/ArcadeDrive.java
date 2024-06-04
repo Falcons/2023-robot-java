@@ -14,9 +14,9 @@ public class ArcadeDrive extends Command {
   /** Creates a new ArcadeDrive. */
   public ArcadeDrive(Drivetrain drivetrain,double speed, double rotation) {
     addRequirements(drivetrain);
-    drivetrain = this.drivetrain;
-    speed = this.speed;
-    rotation = this.rotation;
+    this.drivetrain = drivetrain;
+    this.speed = speed;
+    this.rotation = rotation;
   }
 
   // Called when the command is initially scheduled.
