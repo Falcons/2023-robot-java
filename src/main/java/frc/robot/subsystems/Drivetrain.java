@@ -18,6 +18,8 @@ public class Drivetrain extends SubsystemBase{
     public Drivetrain() {
         leftRearMotor.setControl(new Follower(DriveConstants.LEFT_FRONT_ID, false));
         rightRearMotor.setControl(new Follower(DriveConstants.RIGHT_FRONT_ID, false));
+        rightFrontMotor.setInverted(true);
+        drive.setMaxOutput(0.2);
     }
     public void ArcadeDrive(Double speed, Double rotation) {
         drive.arcadeDrive(speed, rotation);
